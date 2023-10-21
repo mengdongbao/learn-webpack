@@ -36,6 +36,10 @@ const config = {
     // 定义全局变量
     new webpack.DefinePlugin({
         PI: `Math.PI`
+    }),
+    // 注入注释
+    new webpack.BannerPlugin({
+        banner: `author: mengdongbao`
     })
 
     // Add your plugins here
