@@ -1,4 +1,4 @@
 - n1: 炫酷数字查找特效
 - n2: 编译结果分析
 - n3: loader/plugins/配置等
-- n4: 
+- n4: dev-server, 常用 plugins: ['html-webpack-plugin', 'copy-webpack-plugin'], loaders: ['file-loader', 'url-loader']
