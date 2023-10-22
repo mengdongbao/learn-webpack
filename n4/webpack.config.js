@@ -26,7 +26,7 @@ const config = {
     new CleanWebpackPlugin({}),
     new HtmlWebpackPlugin({
       template: "./src/public/index.html",
-      // chunks: ["main"],
+      // chunks: ["main"], // 注入哪些 chunk 结果
       filename: "html/index.html",
     }),
     // 复制
