@@ -1,0 +1,6 @@
+@import "./other.css";
+
+.red {
+    color: red;
+    background-image: url('./asserts/test1.png');
+}
